@@ -20,7 +20,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 98vh;
+    height: 40rem;
     font-size: 1.7em;
 }
 a{
@@ -44,7 +44,7 @@ a, a:visited, a:hover, a:active {
     object-fit: cover;
 }
 img{
-    height: 30vh;
+    height: 15rem;
     width: 100%; 
 }
 #contact{
