@@ -1,0 +1,63 @@
+*{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.navbar-nav{
+    font-size: 1em;
+    font-weight: bold;
+}
+.navbar .navbar-nav .nav-item .nav-link{
+    color: white;
+}
+.navbar .navbar-nav .nav-item .nav-link:hover{
+    color: #ff9966;
+}
+.navbar-toggler-icon{
+    color: white;
+}
+#about-section{
+    background: linear-gradient(to bottom, #ffcc66 0%, #ff9966 100%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 98vh;
+    font-size: 1.7em;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+a, a:visited, a:hover, a:active {
+    color: inherit;
+    
+}
+.row{
+   margin-top: 1em; 
+}
+#projects{
+    padding: 2%;
+}
+.card:hover{
+    box-shadow: 10px 10px 10px 10px grey;
+}
+.card-img{
+    object-fit: cover;
+}
+img{
+    height: 30vh;
+    width: 100%; 
+}
+#contact{
+    padding: 2%;
+    color: white;
+}
+.contact-flex{
+    padding: 1%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    font-size: 1.2em;
+}
+.contact-flex-item:hover{
+    color: #ff9966;
+}
